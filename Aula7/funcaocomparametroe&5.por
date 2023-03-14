@@ -1,20 +1,28 @@
 programa
 {
-	//Criar um algoritmo que leia em um vetor o nome, a quantidade e o valor de uma lista de três produtos.
-	//Ao final deverá calcular o subtotal de cada produto e no final exibir o total geral da compra
-	
 	
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+		inteiro a = 100
+		incrementa(a)
+		escreva("O valor do incremento é: ", incrementa(a),"\n")
+		escreva("O valor da variável 'A' é: ",a,"\n")
+		
+	}
+
+	//função com passagem de parâ metro por referência		
+	funcao inteiro incrementa(inteiro &i){
+		i = i + 10
+		retorne i
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 217; 
+ * @POSICAO-CURSOR = 104; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
